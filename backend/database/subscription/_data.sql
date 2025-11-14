@@ -1,0 +1,2 @@
+-- FEATURE INTEGRATION POINT
+-- Initial seed data for subscription tables (e.g., subscription plans) will be inserted here.

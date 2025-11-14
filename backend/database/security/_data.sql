@@ -1,0 +1,2 @@
+-- FEATURE INTEGRATION POINT
+-- Initial seed data for security tables (e.g., default roles) will be inserted here.

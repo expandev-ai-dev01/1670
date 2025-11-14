@@ -1,0 +1,2 @@
+-- FEATURE INTEGRATION POINT
+-- Initial seed data for configuration tables will be inserted here.
