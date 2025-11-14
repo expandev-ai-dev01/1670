@@ -1,10 +1,12 @@
 import { Router } from 'express';
+import { loginHandler } from '@/api/v1/external/security/login/controller';
 
 const router = Router();
 
-// FEATURE INTEGRATION POINT
-// Example: Authentication routes would be added here
-// import authRoutes from '@/api/v1/external/security/routes';
-// router.use('/security', authRoutes);
+// Authentication routes
+const securityRouter = Router();
+securityRouter.post('/login', loginHandler);
+
+router.use('/security', securityRouter);
 
 export default router;
